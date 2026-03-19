@@ -1,0 +1,95 @@
+head {
+    display: none;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:pink;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result-show {
+    width: 340px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+.head-main {
+    margin-bottom: 20px;
+}
+.head-cal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.head-cal h3 {
+    font-size: 22px;
+    color: #333;
+}
+.head-cal i {
+    font-size: 20px;
+    color: #666;
+}
+.fa-solid, .fas {
+    font-weight: 900;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input input {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid pink;
+    border-radius: 10px;
+    outline: none;
+    background: #f9f9f9;
+    text-align: right;
+    transition: 0.3s;
+}
+.number {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.displayNum {
+    display: flex
+;
+    justify-content: space-between;
+}
+.displayNum button {
+    flex: 1;
+    margin: 5px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: rgb(244, 128, 147);
+    color: white;
+}
+.fa-solid, .fas {
+    font-weight: 900;}
+    .color {
+    background: rgb(96, 93, 93)!important;
+}
+.hover-link{
+color: var(--primery-text-color);
+transition: 0.2s ease-out;
+}
+.hover-link:hover{
+    color: var(--accent-color);
+}
